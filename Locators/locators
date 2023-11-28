@@ -1,0 +1,33 @@
+describe=//button[text()='Describe']
+name=//input[@placeholder='Enter text playbook name...']
+description=//textarea[@placeholder='Enter the purpose here...']
+tags=//input[@placeholder='Enter the tags using commma separation...']
+next=//button[text()='Next']
+back=//button[text()='Back']
+
+
+//  PlayCreations Locators
+createPlay=//button[text()='Create Play']
+getcontext=//div[@data-testid='display-createplay-content']
+playName=//input[@placeholder='Enter name']
+playdescription=//textarea[@placeholder='Enter purpose']
+selectallaccounts=//div[text()='Select all ']//span[text()='accounts']/../..//input
+selectallregions=//div[text()='Select all ']//span[text()='regions']/../..//input
+selectallservices=//div[text()='Select all ']//span[text()='services']/../..//input
+selectaccountsToInclude=//div[text()='Select all ' ]/span[text()='accounts']//../../..//button
+selectregionsToInclude=//div[text()='Select all ' ]/span[text()='regions']//../../..//button
+selectservicesToInclude=//div[text()='Select all ' ]/span[text()='services']//../../..//button
+create=//button[text()='Create']
+
+//  Framework Locators
+selectallframes=//div[text()='Select All Frameworks']//..//img
+frameworktab=//button[text()='Framework']
+
+//  Schedule Locators
+
+
+//FinalPage
+PlaybookImg=//img[@alt='playbookImage']
+getmessage=//*[text()='Succesfully created playbook,']
+playbookName=//*[text()='Compliance Playbook']
+getsummary=//*[starts-with(@class, '_playbookData')]

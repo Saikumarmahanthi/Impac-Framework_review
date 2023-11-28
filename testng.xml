@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.framework.Tests.PlaybookCreation"/>
+       <class name="com.framework.Tests.SideNavTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- suite -->
