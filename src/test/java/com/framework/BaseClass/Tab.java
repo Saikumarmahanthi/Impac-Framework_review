@@ -16,6 +16,7 @@ public class Tab {
 		this.driver = driver;
 		this.label = label;
 	}
+	
 	/*
 	 * Description: This method select tab present in the UI based on given name
 	 */
@@ -23,7 +24,4 @@ public class Tab {
 		//return new Button(driver, "//button[text()='" + label + "']"); //build-1 Xpath 
 		return new Button(driver, "//div[text()='" + label + "']");// build -2 xpath
 	}
-	
-
-	
 }
